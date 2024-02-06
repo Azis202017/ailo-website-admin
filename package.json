@@ -2,7 +2,7 @@
   "name": "zeta-theme",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://react.pixelstrap.com/zeta/",
+  "homepage": "http://127.0.0.1/portal-ra",
   "dependencies": {
     "@asseinfo/react-kanban": "^2.2.0",
     "@auth0/auth0-react": "^1.10.1",
