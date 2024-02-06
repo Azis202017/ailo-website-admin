@@ -1,7 +1,13 @@
 import { BlogSvg, BonusUISvg, ButtonsSvg, CalanderSvg, ChartsSvg, ChatSvg, ContactSvg, EcommerceSvg, EditorsSvg, EmailSvg, FAQSvg, FilemanagerSvg, FormsSvg, GallarySvg, HeaderBookmarkSvg, HomeSvg, IconsSvg, JobsearchSvg, KanbanSvg, KnowledgebaseSvg, LearningSvg, MapsSvg, OthersSvg, ProjectSvg, SamplePageSvg, SearchResultSvg, SocialappSvg, SupportTicketSvg, TablesSvg, TaskSvg, TodoSvg, UiKitsSvg, UsersComponentSvg, WidgetsSvg } from '../../Data/svgIcons';
 
 export const MENUITEMS = [
- 
+
+    {
+        menutitle: 'Dashboard',
+        Items: [
+            { path: `${process.env.PUBLIC_URL}/dashboard`, icon: SamplePageSvg, title: 'Dashboard', type: 'link' }
+        ]
+    },
     {
         menutitle: 'Charts',
         Items: [
@@ -13,14 +19,9 @@ export const MENUITEMS = [
                     { path: `${process.env.PUBLIC_URL}/charts/chartjs`, title: 'ChartJs Charts', type: 'link' },
                 ]
             },
+
         ]
     },
-    {
-        menutitle: 'Sample Page',
-        Items: [
-            { path: `${process.env.PUBLIC_URL}/sample-page`, icon: SamplePageSvg, title: 'Sample Page', type: 'link' }
-        ]
-    },
-   
-  
+
+
 ];
