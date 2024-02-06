@@ -9,14 +9,13 @@ export const MENUITEMS = [
         ]
     },
     {
-        menutitle: 'Charts',
+        menutitle: 'Profile Settings',
         Items: [
             {
-                title: 'Charts', icon: ChartsSvg, type: 'sub', active: false, children: [
-                    { path: `${process.env.PUBLIC_URL}/charts/apex`, title: 'Apex Charts ', type: 'link' },
-                    { path: `${process.env.PUBLIC_URL}/charts/google`, title: 'Google Charts', type: 'link' },
-                    { path: `${process.env.PUBLIC_URL}/charts/chartist`, title: 'Chartist Charts', type: 'link' },
-                    { path: `${process.env.PUBLIC_URL}/charts/chartjs`, title: 'ChartJs Charts', type: 'link' },
+                title: 'Profile Settings', icon: UsersComponentSvg, type: 'sub', active: false, children: [
+                    { path: `${process.env.PUBLIC_URL}/profile/edit-profile`, title: 'Edit Profile ', type: 'link' },
+                    { path: `${process.env.PUBLIC_URL}/profile/edit-expertise`, title: 'Edit Expertise', type: 'link' },
+                    { path: `${process.env.PUBLIC_URL}/profile/edit-research`, title: 'Edit Research', type: 'link' },
                 ]
             },
 
