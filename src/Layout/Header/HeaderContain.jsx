@@ -48,10 +48,6 @@ const HeaderContain = () => {// eslint-disable-next-line
               </Media>
             </Media>
             <UL attrUL={{ className: `simple-list profile-dropdown onhover-show-div` }}>
-              <LI><Link to={`${process.env.PUBLIC_URL}/users/userprofile`}><i><User /></i><span>{Account} </span></Link></LI>
-              <LI><Link to={`${process.env.PUBLIC_URL}/email/mailbox`}><i><Mail /></i><span>{Inbox}</span></Link></LI>
-              <LI><Link to={`${process.env.PUBLIC_URL}/kanbanboard`}><i><FileText /></i><span>{Taskboard}</span></Link></LI>
-              <LI><Link to={`${process.env.PUBLIC_URL}/users/useredit`}><i><Settings /></i><span>Settings</span></Link></LI>
               <LI attrLI={{ onClick: Logout }}>
                 <Link to={`${process.env.PUBLIC_URL}/login`}>
                   <LogIn /><span>{LogOut}</span>
