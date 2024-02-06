@@ -1,10 +1,8 @@
+import { H5, P } from '../../AbstractElements';
 import React, { Fragment } from 'react';
 import { Card, CardBody, CardHeader, Col, Container, Row } from 'reactstrap';
-import { H5 } from '../../../AbstractElements';
-import { Dragging_Event } from '../../../Constant';
-import DragCalendar from './DragCalendar';
 
-const DraggableContain = () => {
+const DashboardPageContain = () => {
   return (
     <Fragment>
       <Container fluid={true}>
@@ -12,14 +10,10 @@ const DraggableContain = () => {
           <Col sm="12">
             <Card>
               <CardHeader className="pb-0">
-                <H5>{Dragging_Event}</H5>
+                <h5>Dashboard </h5>
               </CardHeader>
               <CardBody>
-                <div className="basic-calendar">
-                  <Row>
-                    <DragCalendar />
-                  </Row>
-                </div>
+                <P>To modify your profile details through this dashboard page, first, access the sidebar, select the profile settings option, make the necessary edits, and save the changes accordingly.</P>
               </CardBody>
             </Card>
           </Col>
@@ -28,4 +22,4 @@ const DraggableContain = () => {
     </Fragment>
   );
 };
-export default DraggableContain;
+export default DashboardPageContain;
