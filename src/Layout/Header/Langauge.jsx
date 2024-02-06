@@ -57,6 +57,11 @@ const Language = () => {
               <i className="flag-icon flag-icon-cn"></i> {'简体中文'}
             </a>
           </LI>
+          <LI attrLI={{ onClick: () => changeLanguage('id') }}>
+            <a href="#javascript" data-lng="id">
+              <i className="flag-icon flag-icon-id"></i> {'Indonesia'}
+            </a>
+          </LI>
         </UL>
       </div>
     </Fragment>
