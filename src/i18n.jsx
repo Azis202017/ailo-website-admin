@@ -98,7 +98,19 @@ i18n
                     'Applications': 'Formulários',
                     'Ready to use Apps': 'Aplicativos prontos para usar'
                 }
+            },
+            id: {
+                translations: {
+                    'Dashboard': 'Beranda',
+                    'Default': 'Padrão',
+                    'Ecommerce': 'Comércio eletrônico',
+                    'Widgets': 'Widgets',
+                    'Chart': 'Gráfico',
+                    'Applications': 'Formulários',
+                    'Ready to use Apps': 'Aplicativos prontos para usar'
+                }
             }
+            
         },
         fallbackLng: 'en',
         debug: false,
