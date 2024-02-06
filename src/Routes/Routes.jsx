@@ -1,11 +1,11 @@
 
-import SamplePage from '../Pages/Sample Page';
+import Dashboard from '../Pages/Dashboard';
 
 
 export const routes = [
    
     {
-        path: `${process.env.PUBLIC_URL}/sample-page`, Component: <SamplePage />
+        path: `${process.env.PUBLIC_URL}/dashboard`, Component: <Dashboard />
     },
 
     
