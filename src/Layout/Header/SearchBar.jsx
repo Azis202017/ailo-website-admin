@@ -79,7 +79,7 @@ const Searchbar = () => {
         <Fragment>
             <Col className="left-side-header ps-0 d-md-block dash-10">
                 <div className="w-100 searchbar">
-                    <div className="resp-serch-box d-md-none resp-serch-input">
+                    {/* <div className="resp-serch-box d-md-none resp-serch-input">
                         <Search onClick={() => OnhandelClick(!IsOpen)} /></div>
                     <div className={`input-group form-group search-form ${IsOpen ? 'open' : ''}`}>
                         <span className='input-group-text'><SearchIconss /></span>
@@ -88,7 +88,7 @@ const Searchbar = () => {
                             onChange={(e) => handleSearchKeyword(e.target.value)} />
                         <ListOfMenu searchValue={searchValue} searchResult={searchResult} removeFix={removeFix} searchBar={true} searchToggle={searchToggle} />
                         <EmpltyClass searchIcon={searchIcon} search={true} />
-                    </div>
+                    </div> */}
                 </div>
             </Col>
         </Fragment>

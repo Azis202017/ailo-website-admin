@@ -4,13 +4,9 @@ import { Media } from 'reactstrap';
 import { Link, useNavigate } from 'react-router-dom';
 import { H6, Image, LI, UL } from '../../AbstractElements';
 import UserImg from '../../assets/images/avtar/man.png';
-import ItemCart from './ItemCart';
 import MaxMiniSize from './MaxMiniSize';
 import MoonLight from './MoonLight';
-import Notification from './Notification';
-import Language from './Langauge';
 import { firebase_app } from '../../Config/Config';
-import Bookmark from './Bookmark/index';
 import { Account, Inbox, LogOut, Taskboard } from '../../Constant';
 
 const HeaderContain = () => {// eslint-disable-next-line
@@ -35,13 +31,8 @@ const HeaderContain = () => {// eslint-disable-next-line
     <Fragment>
       <div className="nav-right col-10 col-sm-6 pull-right right-header p-0 dash-76">
         <UL attrUL={{ className: `simple-list flex-row nav-menus` }}>
-          <LI attrLI={{ className: 'onhover-dropdown' }}><H6 attrH6={{ className: 'txt-dark mb-0 mt-1' }}>EN</H6>
-            <Language />
-          </LI>
+        
           <MoonLight />
-          <ItemCart />
-          <Bookmark />
-          <Notification />
           <MaxMiniSize />
           <LI attrLI={{ className: 'profile-nav onhover-dropdown pe-0 pt-0 me-0' }} >
             <Media className="profile-media">

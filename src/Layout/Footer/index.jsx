@@ -9,7 +9,7 @@ const Footer = () => {
         <Container fluid={true}>
           <Row>
             <Col md='12' className="footer-copyright text-center">
-              <P attrPara={{ className: 'mb-0' }}>Copyright 2022 © Zeta theme by pixelstrap  </P>
+              <P attrPara={{ className: 'mb-0' }}>AI CEnter  </P>
             </Col>
           </Row>
         </Container>
