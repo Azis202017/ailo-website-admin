@@ -5,6 +5,9 @@ import { Link, useNavigate } from 'react-router-dom';
 import { H6, Image, LI, UL } from '../../AbstractElements';
 import UserImg from '../../assets/images/avtar/man.png';
 import MaxMiniSize from './MaxMiniSize';
+import Language from './Langauge';
+
+
 import MoonLight from './MoonLight';
 import { firebase_app } from '../../Config/Config';
 import { Account, Inbox, LogOut, Taskboard } from '../../Constant';
@@ -31,8 +34,10 @@ const HeaderContain = () => {// eslint-disable-next-line
     <Fragment>
       <div className="nav-right col-10 col-sm-6 pull-right right-header p-0 dash-76">
         <UL attrUL={{ className: `simple-list flex-row nav-menus` }}>
-        
           <MoonLight />
+          <LI attrLI={{ className: 'onhover-dropdown' }}><H6 attrH6={{ className: 'txt-dark mb-0 mt-1' }}>EN</H6>
+            <Language />
+          </LI>
           <MaxMiniSize />
           <LI attrLI={{ className: 'profile-nav onhover-dropdown pe-0 pt-0 me-0' }} >
             <Media className="profile-media">
